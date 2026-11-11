@@ -1,0 +1,34 @@
+-- Datos coherentes con las imágenes locales de assets/img/catalogo.
+INSERT INTO localidad (id, nombre) VALUES (1, 'Puerto Ámbar');
+INSERT INTO localidad (id, nombre) VALUES (2, 'Valle Niebla');
+INSERT INTO localidad (id, nombre) VALUES (3, 'Ciudad Lumen');
+INSERT INTO localidad (id, nombre) VALUES (4, 'Sierra Clara');
+INSERT INTO localidad (id, nombre) VALUES (5, 'Ribera Azul');
+INSERT INTO localidad (id, nombre) VALUES (6, 'Campo Serena');
+INSERT INTO localidad (id, nombre) VALUES (7, 'Costa Dorada');
+INSERT INTO localidad (id, nombre) VALUES (8, 'Bosque Alto');
+INSERT INTO tipo (id, nombre) VALUES (1, 'Apartamento');
+INSERT INTO tipo (id, nombre) VALUES (2, 'Villa');
+INSERT INTO tipo (id, nombre) VALUES (3, 'Cabaña');
+INSERT INTO tipo (id, nombre) VALUES (4, 'Casa rural');
+INSERT INTO tipo (id, nombre) VALUES (5, 'Loft');
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (1, 'Ático Lumen', 'Vistas urbanas, terraza y diseño contemporáneo', 145, 4, '/assets/img/catalogo/atico-lumen.webp', 1, 3, 1);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (2, 'Villa Horizonte', 'Piscina infinita y acceso a una cala tranquila', 310, 8, '/assets/img/catalogo/villa-horizonte.webp', 1, 7, 2);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (3, 'Cabaña Pico Norte', 'Madera, cristal y senderos desde la puerta', 175, 5, '/assets/img/catalogo/cabana-pico.webp', 1, 4, 3);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (4, 'Casa del Jardín', 'Piedra, jardín privado y ritmo rural', 130, 6, '/assets/img/catalogo/casa-jardin.webp', 0, 6, 4);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (5, 'Loft de la Fábrica', 'Espacio industrial restaurado en el centro', 118, 3, '/assets/img/catalogo/loft-fabrica.webp', 0, 3, 5);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (6, 'Refugio Esmeralda', 'Alojamiento sostenible dentro del bosque', 165, 4, '/assets/img/catalogo/refugio-esmeralda.webp', 1, 8, 3);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (7, 'Casa del Lago', 'Terraza sobre el agua y embarcadero privado', 220, 6, '/assets/img/catalogo/casa-lago.webp', 1, 5, 4);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (8, 'Apartamento Marina', 'Luz mediterránea y paseo marítimo cercano', 135, 4, '/assets/img/catalogo/apartamento-marina.webp', 0, 1, 1);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (9, 'Villa Calma', 'Piscina, porche y vistas abiertas al mar', 285, 7, '/assets/img/catalogo/villa-calma.webp', 1, 7, 2);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (10, 'Cabaña del Pinar', 'Arquitectura moderna entre pinos', 155, 4, '/assets/img/catalogo/cabana-pinar.webp', 0, 8, 3);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (11, 'Casa Serena', 'Casa tradicional con huerto y chimenea', 125, 6, '/assets/img/catalogo/casa-serena.webp', 0, 6, 4);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (12, 'Loft Mirador', 'Doble altura y grandes ventanales', 140, 3, '/assets/img/catalogo/loft-mirador.webp', 0, 3, 5);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (13, 'Refugio Ribera', 'Cabaña junto al agua para dos', 112, 2, '/assets/img/catalogo/refugio-ribera.webp', 0, 5, 3);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (14, 'Villa Olivar', 'Piedra contemporánea, piscina y olivos', 260, 8, '/assets/img/catalogo/villa-olivar.webp', 1, 6, 2);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (15, 'Ático Central', 'Apartamento luminoso cerca del distrito cultural', 150, 4, '/assets/img/catalogo/atico-central.webp', 0, 3, 1);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (16, 'Terraza del Sol', 'Villa escalonada sobre el Mediterráneo', 295, 6, '/assets/img/catalogo/terraza-sol.webp', 1, 7, 2);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (17, 'Cabaña Granito', 'Refugio alpino con salón panorámico', 185, 5, '/assets/img/catalogo/cabana-granito.webp', 0, 4, 3);
+INSERT INTO alojamiento (id, nombre, descripcion, precio_noche, capacidad, imagen, destacado, localidad_id, tipo_id) VALUES (18, 'Casa del Fuego', 'Casa rural cálida para reuniones familiares', 160, 7, '/assets/img/catalogo/casa-fuego.webp', 0, 2, 4);
+
+COMMIT;
